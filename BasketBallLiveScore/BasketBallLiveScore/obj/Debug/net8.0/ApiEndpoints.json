@@ -1,0 +1,496 @@
+[
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.AuthController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Auth/getUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "BasketBallLiveScore.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "BasketBallLiveScore.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "AddGameStaffToGame",
+    "RelativePath": "api/BasketballGame/{gameId}/addGameStaff",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gameStaff",
+        "Type": "BasketBallLiveScore.Models.GameStaff",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "AddTeamToGame",
+    "RelativePath": "api/BasketballGame/{gameId}/addTeam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "team",
+        "Type": "BasketBallLiveScore.Models.Team",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "AddPlayerToTeam",
+    "RelativePath": "api/BasketballGame/{teamId}/addPlayer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "player",
+        "Type": "BasketBallLiveScore.Models.Player",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "AddTeamStaffToTeam",
+    "RelativePath": "api/BasketballGame/{teamId}/addTeamStaff",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "teamStaff",
+        "Type": "BasketBallLiveScore.Models.TeamStaff",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "CreateGame",
+    "RelativePath": "api/BasketballGame/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGame",
+        "Type": "BasketBallLiveScore.Models.BasketballGame",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "GetGameById",
+    "RelativePath": "api/BasketballGame/getGame/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "GetGameIdByGameNumber",
+    "RelativePath": "api/BasketballGame/getGameIdByGameNumber/{gameNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "GetGameStaffByGameId",
+    "RelativePath": "api/BasketballGame/getGameStaffByGameId/{basketballGameId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "GetPlayersByTeamId",
+    "RelativePath": "api/BasketballGame/getPlayersByTeamId/{teamId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "GetTeamsByGameId",
+    "RelativePath": "api/BasketballGame/getTeamsByGameId/{basketballGameId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "GetTeamStaffByTeamId",
+    "RelativePath": "api/BasketballGame/getTeamStaffByTeamId/{teamId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.BasketballGameController",
+    "Method": "ValidateGameNumber",
+    "RelativePath": "api/BasketballGame/validateGameNumber/{gameNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "GetActions",
+    "RelativePath": "api/LiveMatch/actions/{gameId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "DeleteActions",
+    "RelativePath": "api/LiveMatch/actions/{gameId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "CommitFoul",
+    "RelativePath": "api/LiveMatch/commitFoul",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foul",
+        "Type": "BasketBallLiveScore.Models.Foul",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "GetFouls",
+    "RelativePath": "api/LiveMatch/fouls/{basketballGameId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "GetPoints",
+    "RelativePath": "api/LiveMatch/points/{basketballGameId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "MarkPoints",
+    "RelativePath": "api/LiveMatch/score",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pointsScored",
+        "Type": "BasketBallLiveScore.Models.PointsScored",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "SubstitutePlayer",
+    "RelativePath": "api/LiveMatch/substitute",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "substitution",
+        "Type": "BasketBallLiveScore.Models.Substitution",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "GetSubstitutions",
+    "RelativePath": "api/LiveMatch/substitutions/{basketballGameId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.LiveMatchController",
+    "Method": "GetTeamPoints",
+    "RelativePath": "api/LiveMatch/teamPoints",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "teamId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.TimerController",
+    "Method": "GetTimer",
+    "RelativePath": "api/timer/{basketballGameId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.TimerController",
+    "Method": "DeleteTimer",
+    "RelativePath": "api/timer/{basketballGameId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.TimerController",
+    "Method": "InitializeTimer",
+    "RelativePath": "api/timer/initialize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timerState",
+        "Type": "BasketBallLiveScore.Models.TimerState",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.TimerController",
+    "Method": "UpdateIsRunning",
+    "RelativePath": "api/timer/isRunning",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketballGameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isRunning",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasketBallLiveScore.Controllers.TimerController",
+    "Method": "UpdateTimer",
+    "RelativePath": "api/timer/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedTimer",
+        "Type": "BasketBallLiveScore.Models.TimerState",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

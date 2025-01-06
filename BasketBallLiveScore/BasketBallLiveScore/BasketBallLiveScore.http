@@ -1,0 +1,6 @@
+@BasketBallLiveScore_HostAddress = http://localhost:5039
+
+GET {{BasketBallLiveScore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

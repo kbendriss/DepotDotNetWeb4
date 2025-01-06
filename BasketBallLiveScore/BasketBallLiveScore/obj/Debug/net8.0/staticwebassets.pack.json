@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\khali\\Desktop\\BasketBallLiveScore\\BasketBallLiveScore\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\khali\\Desktop\\BasketBallLiveScore\\BasketBallLiveScore\\wwwroot\\browser\\favicon.ico",
+      "PackagePath": "staticwebassets\\browser\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\khali\\Desktop\\BasketBallLiveScore\\BasketBallLiveScore\\wwwroot\\browser\\index.html",
+      "PackagePath": "staticwebassets\\browser\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\khali\\Desktop\\BasketBallLiveScore\\BasketBallLiveScore\\wwwroot\\browser\\main-KNDVVP55.js",
+      "PackagePath": "staticwebassets\\browser\\main-KNDVVP55.js"
+    },
+    {
+      "Id": "C:\\Users\\khali\\Desktop\\BasketBallLiveScore\\BasketBallLiveScore\\wwwroot\\browser\\polyfills-FFHMD2TL.js",
+      "PackagePath": "staticwebassets\\browser\\polyfills-FFHMD2TL.js"
+    },
+    {
+      "Id": "C:\\Users\\khali\\Desktop\\BasketBallLiveScore\\BasketBallLiveScore\\wwwroot\\browser\\styles-5INURTSO.css",
+      "PackagePath": "staticwebassets\\browser\\styles-5INURTSO.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BasketBallLiveScore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BasketBallLiveScore.props",
+      "PackagePath": "build\\BasketBallLiveScore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BasketBallLiveScore.props",
+      "PackagePath": "buildMultiTargeting\\BasketBallLiveScore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BasketBallLiveScore.props",
+      "PackagePath": "buildTransitive\\BasketBallLiveScore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
